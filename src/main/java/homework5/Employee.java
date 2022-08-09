@@ -2,14 +2,14 @@ package homework5;
 
 public class Employee {
 
-    private String name;
-    private String surname;
-    private String patronymic;
-    private String jobTitle;
-    private String phoneNumber;
-    private String email;
-    private int salary;
-    private int age;
+    private final String name;
+    private final String surname;
+    private final String patronymic;
+    private final String jobTitle;
+    private final String phoneNumber;
+    private final String email;
+    private final int salary;
+    private final int age;
 
     public Employee(String name,  String surname, String patronymic,
                     String jobTitle, String phoneNumber, String email, int salary, int age) {
